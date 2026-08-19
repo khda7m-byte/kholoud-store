@@ -236,7 +236,7 @@ export default function Home() {
                       boxShadow: '0 10px 15px -3px rgba(0, 0, 0, 0.1)', 
                       display: 'flex', 
                       flexDirection: 'column',
-                      justify: 'space-between',
+                      justifyContent: 'space-between',
                       cursor: 'pointer'
                     }}
                   >

@@ -145,7 +145,7 @@ export default function Home() {
         {/* الهيدر العلوي */}
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '15px 25px', background: '#1e293b', color: '#fff', borderRadius: '12px', boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1)' }}>
           <h2 style={{ margin: 0, fontSize: '1.4rem', cursor: 'pointer' }} onClick={() => {setSelectedProduct(null); setSearchQuery(''); setSelectedCategory('الكل');}}>
-            🛍️ متجر خلود
+            🛍️ إيفار | IVAR
           </h2>
           <button 
             onClick={() => setIsOpen(true)}
@@ -346,7 +346,7 @@ export default function Home() {
         <div style={{ maxWidth: '1000px', margin: '0 auto', display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between', gap: '30px' }}>
           
           <div style={{ flex: '1', minWidth: '200px' }}>
-            <h3 style={{ color: '#fff', marginBottom: '15px' }}>🛍️ متجر خلود</h3>
+            <h3 style={{ color: '#fff', marginBottom: '15px' }}>🛍️ إيفار | IVAR</h3>
             <p style={{ lineHeight: '1.6', fontSize: '0.9rem' }}>متجرك الأول لتسوق العطور، التقنية، والموضة بأفضل الأسعار وأعلى جودة. نهدف لتقديم تجربة تسوق سهلة ومريحة.</p>
           </div>
 
@@ -368,7 +368,7 @@ export default function Home() {
         </div>
 
         <div style={{ textAlign: 'center', marginTop: '40px', paddingTop: '20px', borderTop: '1px solid #334155', fontSize: '0.85rem' }}>
-          © 2026 متجر خلود. جميع الحقوق محفوظة. تم التطوير بحب 💻✨
+          © 2026 إيفار | IVAR. جميع الحقوق محفوظة. تم التطوير بحب 💻✨
         </div>
       </footer>
 

@@ -23,7 +23,7 @@ export default function Home() {
     {
       id: 1,
       name: 'عطر Cloudy Bloom',
-      price: 280,
+      price: 180,
       category: 'العطور والبخور',
       isBestSeller: true,
       image: 'https://images.unsplash.com/photo-1541643600914-78b084683601?w=500&auto=format&fit=crop&q=60',
@@ -41,17 +41,27 @@ export default function Home() {
       details: ['الحجم: 50 مل', 'مناسب لجميع أنواع البشرة', 'خالي من العطور']
     },
     {
-      id: 3,
-      name: 'حقيبة حفظ الجوالات',
-      price: 45,
-      category: 'الاكسسوارات',
-      isBestSeller: true,
-      image: 'https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=500&auto=format&fit=crop&q=60',
-      description: 'حقيبة أمان مخصصة للمناسبات وقاعات الأفراح لحفظ الجوالات ومنع التصوير بشكل آمن وأنيق.',
-      details: ['الخامة: قماش قفل أمان عالي الجودة', 'اللون: أحمر / أسود', 'مناسب لجميع أنواع الجوالات']
-    },
+    id: 3,
+    name: 'حقيبة حفظ الجوالات',
+    price: 45,
+    category: 'الاكسسوارات',
+    isBestSeller: true,
+    image: 'https://images.unsplash.com/photo-1584917865442-de89df76afd3',
+    description: 'لحفظ الجوالات ومنع التصوير بشكل آمن وأنيق',
+    details: ['الخامة: قماش قفل أمان عالي الجودة']
+  },
+  {
+    id: 4,
+    name: 'مسك البودر فاخر',
+    price: 150,
+    category: 'العطور والبخور',
+    isBestSeller: false,
+    image: 'https://images.unsplash.com/photo-1592945403244-b3fbafd7f539',
+    description: 'نفحات بودرية ناعمة تمنحك إحساساً بالانتعاش والنظافة طوال اليوم',
+    details: ['التركيز: أودو بارفان', 'الحجم: 100 مل']
+  },
     {
-      id: 4,
+    id: 5,
       name: 'سماعة لاسلكية عصرية',
       price: 199,
       category: 'الأجهزة والتقنية',
@@ -61,7 +71,7 @@ export default function Home() {
       details: ['الاتصال: بلوتوث 5.2', 'البطارية: 30 ساعة', 'المميزات: عزل ضوضاء، ميكروفون مدمج']
     },
     {
-      id: 5,
+      id: 6,
       name: 'فستان صيفي أنيق',
       price: 250,
       category: 'الملابس والأزياء',
@@ -70,7 +80,7 @@ export default function Home() {
       details: ['الخامة: 100% قطن', 'المقاسات: S, M, L, XL', 'الألوان: أبيض / بيج']
     },
     {
-      id: 6,
+      id: 7,
       name: 'نقش حناء هندسي',
       price: 35,
       category: 'الجمال والعناية',
@@ -236,7 +246,7 @@ export default function Home() {
                       boxShadow: '0 10px 15px -3px rgba(0, 0, 0, 0.1)', 
                       display: 'flex', 
                       flexDirection: 'column',
-                      justifyContent: 'space-between',
+                      justify: 'space-between',
                       cursor: 'pointer'
                     }}
                   >

@@ -238,17 +238,17 @@ export default function Home() {
                 {filteredProducts.map((product) => (
                   <div 
                     key={product.id} 
-                    style={{ 
-                      background: '#fff', 
-                      borderRadius: '16px', 
-                      overflow: 'hidden', 
-                      width: '240px', 
-                      boxShadow: '0 10px 15px -3px rgba(0, 0, 0, 0.1)', 
-                      display: 'flex', 
-                      flexDirection: 'column',
-                      justify: 'space-between',
-                      cursor: 'pointer'
-                    }}
+                   style={{
+          background: '#fff',
+          borderRadius: '16px',
+          overflow: 'hidden',
+          width: '240px',
+          boxShadow: '0 10px 15px -3px rgba(0, 0, 0, 0.1)',
+          display: 'flex',
+          flexDirection: 'column',
+          justifyContent: 'space-between',
+          cursor: 'pointer'
+        }}
                   >
                     <img 
                       src={product.image} 

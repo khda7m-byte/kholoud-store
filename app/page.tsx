@@ -1,12 +1,10 @@
 'use client';
 
 import React, { useState } from 'react';
-import { ShoppingBag, Search, Sparkles, MessageCircle, Check, Info } from 'lucide-react';
 
 export default function Home() {
   const [selectedCategory, setSelectedCategory] = useState('الكل');
   const [searchQuery, setSearchQuery] = useState('');
-  const [cart, setCart] = useState<any[]>([]);
 
   const whatsappNumber = '966501358096';
 
@@ -81,8 +79,8 @@ export default function Home() {
       <header className="bg-slate-900 text-white sticky top-0 z-50 shadow-md">
         <div className="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <div className="bg-amber-400 p-2 rounded-xl text-slate-900">
-              <Sparkles className="w-6 h-6" />
+            <div className="bg-amber-400 p-2 rounded-xl text-slate-900 font-bold">
+              ✨
             </div>
             <div>
               <h1 className="text-xl font-bold tracking-wide">إيفار | IVAR</h1>
@@ -96,8 +94,7 @@ export default function Home() {
             rel="noopener noreferrer"
             className="flex items-center gap-2 bg-emerald-600 hover:bg-emerald-500 text-white px-4 py-2 rounded-xl text-sm font-medium transition"
           >
-            <MessageCircle className="w-4 h-4" />
-            <span>تواصل معنا</span>
+            <span>💬 تواصل معنا</span>
           </a>
         </div>
       </header>
@@ -139,13 +136,12 @@ export default function Home() {
 
           {/* Search Bar */}
           <div className="relative w-full sm:w-72">
-            <Search className="w-4 h-4 absolute right-3 top-1/2 -translate-y-1/2 text-slate-400" />
             <input
               type="text"
-              placeholder="بحث عن حجم..."
+              placeholder="🔍 بحث عن حجم..."
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
-              className="w-full pl-4 pr-9 py-2 rounded-xl border border-slate-200 bg-white text-sm focus:outline-none focus:ring-2 focus:ring-slate-900"
+              className="w-full px-4 py-2 rounded-xl border border-slate-200 bg-white text-sm focus:outline-none focus:ring-2 focus:ring-slate-900"
             />
           </div>
         </div>
@@ -154,20 +150,20 @@ export default function Home() {
         {selectedCategory === 'عن المنتَج' ? (
           <div className="bg-white rounded-2xl p-6 border border-slate-200 space-y-6 max-w-3xl mx-auto">
             <div className="flex items-center gap-3 border-b pb-4">
-              <Info className="w-6 h-6 text-amber-500" />
+              <span className="text-2xl">ℹ️</span>
               <h3 className="text-lg font-bold">لماذا تختارين كريم إيفار؟</h3>
             </div>
             <ul className="space-y-3 text-sm text-slate-600">
               <li className="flex items-center gap-2">
-                <Check className="w-4 h-4 text-emerald-500 shrink-0" />
+                <span className="text-emerald-500 font-bold">✓</span>
                 <span>ترطيب عميق يدوم طوال اليوم دون ملمس دهني.</span>
               </li>
               <li className="flex items-center gap-2">
-                <Check className="w-4 h-4 text-emerald-500 shrink-0" />
+                <span className="text-emerald-500 font-bold">✓</span>
                 <span>يساعد على توحيد لون البشرة واستعادة إشراقتها الطبيعية.</span>
               </li>
               <li className="flex items-center gap-2">
-                <Check className="w-4 h-4 text-emerald-500 shrink-0" />
+                <span className="text-emerald-500 font-bold">✓</span>
                 <span>آمن ومناسب لمختلف أنواع البشرة.</span>
               </li>
             </ul>
@@ -220,8 +216,7 @@ export default function Home() {
                     onClick={() => sendWhatsAppOrder(product)}
                     className="w-full bg-emerald-600 hover:bg-emerald-500 text-white font-medium py-2.5 rounded-xl text-sm flex items-center justify-center gap-2 transition"
                   >
-                    <MessageCircle className="w-4 h-4" />
-                    <span>طلب مباشر عبر الواتساب</span>
+                    <span>💬 طلب مباشر عبر الواتساب</span>
                   </button>
                 </div>
               </div>

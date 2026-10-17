@@ -20,7 +20,7 @@ export default function Home() {
   const products = [
     {
       id: 1,
-      name: 'كريم إيفار للعناية والتفتيح - 50 مل',
+      name: 'كريم إيفار للتفتيح الفوري - 50 مل',
       category: 'الأحجام الفردية',
       price: 79,
       oldPrice: 99,
@@ -31,7 +31,7 @@ export default function Home() {
     },
     {
       id: 2,
-      name: 'كريم إيفار للعناية والتفتيح - 100 مل',
+      name: 'كريم إيفار للتفتيح الفوري - 100 مل',
       category: 'الأحجام الفردية',
       price: 129,
       oldPrice: 159,
@@ -42,7 +42,7 @@ export default function Home() {
     },
     {
       id: 3,
-      name: 'كريم إيفار للعناية والتفتيح - 200 مل',
+      name: 'كريم إيفار للتفتيح الفوري - 200 مل',
       category: 'الأحجام الفردية',
       price: 199,
       oldPrice: 249,
@@ -145,7 +145,7 @@ export default function Home() {
             إصدار خاص وبتركيبة مميزة
           </span>
           <h2 className="text-3xl sm:text-4xl font-extrabold leading-tight">
-            كريم إيفار المتكامل للترطيب والتفتيح
+            كريم إيفار المتكامل للتفتيح الفوري
           </h2>
           <p className="text-slate-300 text-sm sm:text-base max-w-xl mx-auto">
             تركيبة غنية تمنح بشرتكِ نعومة فائقة وإشراقة تدوم. اختاري الحجم المناسب لكِ واستفيدي من عروضنا الحصرية.
@@ -196,7 +196,7 @@ export default function Home() {
               </li>
               <li className="flex items-center gap-2">
                 <span className="text-emerald-500 font-bold">✓</span>
-                <span>يساعد على توحيد لون البشرة واستعادة إشراقتها الطبيعية.</span>
+                <span>يساعد على توحيد لون البشرة واستعادة إشراقتها الطبيعية فوراً.</span>
               </li>
               <li className="flex items-center gap-2">
                 <span className="text-emerald-500 font-bold">✓</span>

@@ -27,7 +27,7 @@ export default function Home() {
       size: '50 مل',
       badge: 'الحجم التجريبي',
       description: 'حجم مثالي للتجربة والتنقل، يمنح البشرة ترطيباً عميقاً وإشراقة طبيعية.',
-      image: 'https://images.unsplash.com/photo-1556228720-195a672e8a03?w=500&auto=format&fit=crop&q=60'
+      image: 'https://i.ibb.co/Cp4SfL6b/image-2.png'
     },
     {
       id: 2,
@@ -38,7 +38,7 @@ export default function Home() {
       size: '100 مل',
       badge: 'الأكثر طلباً ✨',
       description: 'الحجم الأكثر شعبية واستخداماً، مناسب للاستعمال اليومي المستمر.',
-      image: 'https://images.unsplash.com/photo-1608248597263-00079e96147a?w=500&auto=format&fit=crop&q=60'
+      image: 'https://i.ibb.co/hFfyRND2/image.png'
     },
     {
       id: 3,
@@ -49,7 +49,7 @@ export default function Home() {
       size: '200 مل',
       badge: 'الحجم التوفيري',
       description: 'عبوة توفيرية مضاعفة تضمن لكِ عناية وترطيباً يدوم لفترة طويلة.',
-      image: 'https://images.unsplash.com/photo-1571781926291-c477ebfd024b?w=500&auto=format&fit=crop&q=60'
+      image: 'https://i.ibb.co/n8rfK9qC/image-3.png'
     },
     {
       id: 4,
@@ -60,7 +60,7 @@ export default function Home() {
       size: '2 عبوة × 50 مل',
       badge: 'وفر 23 ر.س',
       description: 'احصلي على علبتين حجم 50 مل بسعر موفر وخاص!',
-      image: 'https://images.unsplash.com/photo-1556228720-195a672e8a03?w=500&auto=format&fit=crop&q=60'
+      image: 'https://i.ibb.co/Cp4SfL6b/image-2.png'
     }
   ];
 
@@ -212,7 +212,7 @@ export default function Home() {
                 className="bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-sm hover:shadow-md transition flex flex-col justify-between"
               >
                 <div>
-                  <div className="relative h-56 bg-slate-100">
+                  <div className="relative h-64 bg-slate-100">
                     <img
                       src={product.image}
                       alt={product.name}
